@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Murder Mysteries &quot;Flix&quot;- AULA 4 e 5</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="container">
+  <h1 class="page-title">
+    Murder Mysteries
+  </h1>
+</div>
+<div class="form">
+  <input type="text" id="input3" class="text-input" placeholder="Nome do Documentário">
+  <input type="text" id="input1" class="text-input" placeholder="URL da Imagem">
+  <input type="text" id="input2" class="text-input" placeholder="Link do Trailer">
+
+  <button type="submit" class="button" onclick="Inserir()">Inserir</button>
+</div>
+<div class="form" id="remover">
+  Gostaria de remover um documentário da lista? Digite o nome abaixo:
+  <p>
+    <input type="text" id="inputRemover" class="text-input" placeholder="Nome do Documentário">
+    <button type="submit" class="button" onclick="Remover()">Remover</button>
+  </p>
+</div>
+<div class="documentario" id="documentario"></div>
+<a href="https://alura.com.br/" target="_blank">
+  <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
+  <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo" alt="">
+</a>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
